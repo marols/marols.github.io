@@ -6,12 +6,21 @@
  * Made By MaterializeCSS.com
  */
 
-nav ul a,
-nav .brand-logo {
+ nav ul a,
+ nav .brand-logo {
   color: #444;
 }
 
+nav .nav-wrapper i {
+  display: inline-block;
+}
+
 p {
+  line-height: 2rem;
+}
+
+ul li.disc {
+  list-style-type: disc; 
   line-height: 2rem;
 }
 
@@ -25,9 +34,9 @@ p {
   height: auto;
   color: rgba(255,255,255,.9);
 }
-  .parallax-container .section {
-    width: 100%;
-  }
+.parallax-container .section {
+  width: 100%;
+}
 
 @media only screen and (max-width : 992px) {
   .parallax-container .section {
