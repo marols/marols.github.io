@@ -2,22 +2,8 @@
 
 <!-- 
   You can create overrides per build configuration (Debug and Release) that are applied to App.config.Template and saved as App.config.
-  Below is an example of a App.config.Debug file that will update the database endpoints and set a custom web root.
-  
-  To try it out
-    1. Create a new text file named "App.config.Debug" and in the same folder as App.config.
-    2. Copy+paste the content of this file into App.config.Debug and save it
-    3. Build the solution in Debug mode
-          => the content of your App.config should now be: App.config.Template + Transform(App.config.Debug) => App.config
-  
-  Important: 
-    - Any changes to Alexandria.Service\App.config will be ignored - update Alexandria.Service\App.config.Template instead
-  
-    - Do not commit App.config.Release or App.config.Debug
-        if git wants to add them, run the following git command
-        git update-index -assume-unchanged Alexandria.Service\App.config.Debug
-        
-    - Do not add App.config.Release or App.config.Debug to the solution - since the files are not committed, it will break the build for other people
+
+  elease or App.config.Debug to the solution - since the files are not committed, it will break the build for other people
 -->
 
 <configuration xmlns:xdt="http://schemas.microsoft.com/XML-Document-Transform">
